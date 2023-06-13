@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC</title>
+</head>
+<body>
+    
+    <div id="root">
+
+        <div class="header">
+            <h1>Olá!</h1>
+            <span>Preencha as informações abaixo para calcular seu Índice de Massa Corporal!</span>
+        </div>
+
+        <div class="input">
+            <label for="">Qual o seu nome?</label>
+            <input type="text" id="nome">
+        </div>
+
+        <div class="input">
+            <label for="">Coloque a sua altura em centímetros</label>
+            <input type="number" placeholder="Por exemplo: 1,83" id="altura">
+        </div>
+        
+        <div class="input">
+            <label for="">Agora coloque o seu peso atual em quilos</label>
+            <input type="number" placeholder="Por exemplo: 105" id="peso">
+        </div>
+
+        <button id="btn_calcular">Calcular</button>
+
+        
+        
+        <div id="resultado">
+        </div>
+        
+    </div>
+
+    <script src="./scripts/questao_01.js"></script>
+</body>
+</html>
